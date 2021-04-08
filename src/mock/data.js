@@ -12,46 +12,46 @@ export const heroData = {
   title: '',
   name: 'Caroline Liard',
   subtitle: 'Front-End Developer',
-  cta: '',
+  cta: 'Who am I?',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I joined O Clock school at the end of the year 2020 to do the training  "Web Developer Full Stack Javascript" + one month of React specialization (735h of intensive courses).',
+  paragraphTwo: 'I work most often on React and JavaScript but I remain open to all proposals.',
+  paragraphThree: 'I am currently looking for an internship or a job in the world of web development.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'miniature-hero.png',
+    title: 'Hero',
+    info: 'Website with several playable stories and multiple choices. Try to discover all the possible ends!',
+    info2: 'Tech stack: ReactJs / NodeJs / Express',
+    url: 'http://34.207.247.234:5000/#/',
+    repo: 'https://github.com/Caro-L-dev/Hero', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'miniature-portfolio-dev-art.png',
+    title: 'My portfolio dev & art',
+    info: 'Portfolio that presents my work in web development and in the artistic field.',
+    info2: 'Tech stack: JavaScript / ReactJs',
+    url: 'https://www.caroline.totypice.fr/what-i-do',
+    repo: 'https://github.com/Caro-L-dev/PORTFOLIO', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Antre des jeux',
+    info: 'Boardgames website showcase with an e-commerce side.',
+    info2: 'Tech stack: Gatsby(react) / TypeScript / GraphCms / GraphQl / Emotion.sh / Snipcart',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Moonpearl/l-antre-des-jeux', // if no repo, the button will not show up
   },
 ];
 
@@ -67,23 +67,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/liardcaroline/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Caro-L-dev',
     },
   ],
 };
