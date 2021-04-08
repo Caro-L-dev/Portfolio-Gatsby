@@ -1,3 +1,3 @@
 # Gatsby Portfolio
 
-Link: https://hungry-bartik-0ec74f.netlify.app/
+Link: https://stupefied-rosalind-49511b.netlify.app/
