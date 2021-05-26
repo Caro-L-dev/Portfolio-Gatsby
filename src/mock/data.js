@@ -46,11 +46,11 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'miniature-antre-des-jeux.png',
     title: 'Antre des jeux',
     info: 'Boardgames website showcase with an e-commerce side.',
     info2: 'Tech stack: Gatsby(react) / TypeScript / GraphCms / GraphQl / Emotion.sh / Snipcart',
-    url: '',
+    url: 'https://l-antre-des-jeux.netlify.app/',
     repo: 'https://github.com/Moonpearl/l-antre-des-jeux', // if no repo, the button will not show up
   },
 ];
